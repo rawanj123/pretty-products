@@ -1,7 +1,23 @@
 html {
   box-sizing: border-box;
+  font-family: karma, serif;
+  line-height: 1.5;
+  margin: 0;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  margin: .25em;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
 }
