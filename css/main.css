@@ -14,8 +14,8 @@ body {
 }
 
 ul {
-  margin: .25em;
-  padding: 1rem;
+  margin: 0;
+  padding: 1.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -42,6 +42,7 @@ h2 {
   font-weight: bold;
   text-align: center;
   margin: 0;
+  margin-top: .5rem;
 }
 
 p {
@@ -51,6 +52,10 @@ p {
   color: #000;
   text-align: center;
   padding: .1em 1rem .5em;
+}
+
+.sapphire p {
+  margin-top: -.1rem;
 }
 
 .item {
@@ -66,14 +71,22 @@ p {
   padding: .3em 1.5em .6em;
   margin: 1rem;
   color: #fff;
-}
-
-.fav {
-  align-items: flex-end;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .share {
+  flex-direction: row;
   align-items: flex-end;
+  margin-left: .1em;
+  margin-bottom: -.2em;
+}
+
+.fav {
+  flex-direction: row;
+  align-items: flex-end;
+  margin-left: 7rem;
+  margin-bottom: -.2em;
 }
 
 div {
