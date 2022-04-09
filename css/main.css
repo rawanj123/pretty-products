@@ -36,7 +36,7 @@ ul > li {
 }
 
 h2 {
-  font-family: "Oswald", sans-serif;
+  font-family: Oswald, sans-serif;
   color: #6f00e7;
   font-size: 2rem;
   text-align: center;
@@ -61,7 +61,7 @@ p {
 }
 
 .button {
-  font-family: "Oswald", sans-serif;
+  font-family: Oswald, sans-serif;
   display: inline-block;
   background-color: #6f00e7;
   border-radius: 3em;
@@ -75,9 +75,9 @@ div {
 }
 
 .fav {
-  align-content: flex-end;
+  align-items: flex-end;
 }
 
 .share {
-  align-content: flex-end;
+  align-items: flex-end;
 }
